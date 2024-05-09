@@ -1,0 +1,244 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #ecca9c;
+  color: white;
+}
+
+header .navbar {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 1.5rem;
+  position: fixed;
+  background-color: #b67352;
+}
+
+.navbar .logo img {
+  width: 150px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 2.5rem;
+  height: 100%;
+  align-items: center;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: 15px 0;
+}
+
+.navbar ul li a:hover {
+  border-bottom: 4px solid white;
+}
+
+header .container-profile {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+header .profile-photo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-top: 100px;
+}
+
+.hr-line svg {
+  margin-bottom: -2rem;
+}
+
+main {
+  background-color: #e8efcf;
+}
+
+main .container-main {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.container-main .title {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.container-content .content {
+  font-size: 1.3rem;
+  text-align: justify;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-content {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.container .card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 220px;
+  display: grid;
+  grid-template-columns: 200px;
+  grid-template-rows: 1fr 40px 30px;
+  align-items: center;
+}
+
+.container .card-small {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 100px;
+  display: grid;
+  grid-template-columns: 100px;
+  grid-template-rows: 1fr 50px;
+}
+
+.container .card-big {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 300px;
+  display: grid;
+  grid-template-columns: 400px;
+  grid-template-rows: 1fr 70px;
+}
+
+.container-content .card-content {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 150px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr;
+}
+
+.container .logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.container .certification-name a {
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+}
+
+.container .certification-name a:hover {
+  font-weight: bold;
+}
+
+.skills .container .icon img {
+  width: 60px;
+  margin-top: 10px;
+}
+
+.image img {
+  width: 90%;
+  height: 90%;
+  margin-top: 0.5rem;
+}
+
+.project-name {
+  margin-top: 1.3rem;
+}
+
+.project-name a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.project-name a:hover {
+  font-weight: bold;
+}
+
+main aside {
+  position: fixed;
+  inset-block: 0;
+  inset-inline-end: 0;
+}
+
+main aside .social {
+  height: 100%;
+  display: flex;
+}
+
+main aside .social ul {
+  padding: 1.5rem 1rem;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  margin: auto;
+  background-color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+main aside .social li {
+  list-style: none;
+  width: 30px;
+  height: 30px;
+}
+
+main aside .social li a img {
+  width: 100%;
+  height: 100%;
+}
+
+main aside .social li a:hover img {
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+  background-color: rgb(255, 255, 255, 0.3);
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: white;
+}
